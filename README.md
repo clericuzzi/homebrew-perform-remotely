@@ -36,14 +36,17 @@ The background worker restarts into the new version on its own.
 
 ## Uninstall
 
-Remove the background service first, then the formula:
+Run `perform-remotely cleanup` first, then remove the formula:
 
 ```sh
-perform-remotely stop --remove
+perform-remotely cleanup
 brew uninstall perform-remotely
 ```
 
-`perform-remotely logout` also removes the service.
+`cleanup` lists everything it will remove, asks first, and then removes it: the background
+service, this worker on the platform, and all the worker's data on this machine (its Keychain
+items, settings, logs and clones). `perform-remotely help` lists every location. Your Env Setup
+clones stay unless you add `--include-work`, and `--dry-run` only shows the list.
 
 ## Notes
 

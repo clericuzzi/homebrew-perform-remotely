@@ -1,29 +1,29 @@
 class PerformRemotely < Formula
   desc "Background worker for perform-remotely, run on your own machine"
   homepage "https://github.com/clericuzzi/homebrew-perform-remotely"
-  version "0.5.15"
+  version "0.5.16"
 
   on_macos do
     depends_on "terminal-notifier"
 
     on_arm do
-      url "https://github.com/clericuzzi/homebrew-perform-remotely/releases/download/v0.5.15/perform-remotely_0.5.15_darwin_arm64.tar.gz"
-      sha256 "47b4e1d3dd37592c148e48254abb3564520d301c413614671a54a56189f6f167"
+      url "https://github.com/clericuzzi/homebrew-perform-remotely/releases/download/v0.5.16/perform-remotely_0.5.16_darwin_arm64.tar.gz"
+      sha256 "19105b56d56bdd03c1a26af1ff19ed2768ae3e31e8c18c911dd2248a3b082515"
     end
     on_intel do
-      url "https://github.com/clericuzzi/homebrew-perform-remotely/releases/download/v0.5.15/perform-remotely_0.5.15_darwin_amd64.tar.gz"
-      sha256 "4219d6175601a76a2746c8421f30a2d63f7d8967145a1731f887ad60c69b9c09"
+      url "https://github.com/clericuzzi/homebrew-perform-remotely/releases/download/v0.5.16/perform-remotely_0.5.16_darwin_amd64.tar.gz"
+      sha256 "735a27dd6e0dd92c3c281ea240aff5be6c96c0e3c1c78bfc83b50a507e1787d3"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/clericuzzi/homebrew-perform-remotely/releases/download/v0.5.15/perform-remotely_0.5.15_linux_arm64.tar.gz"
-      sha256 "540887e410c1e4743c95cdf68cc14652713688c0ba34224df4e92f14e6262946"
+      url "https://github.com/clericuzzi/homebrew-perform-remotely/releases/download/v0.5.16/perform-remotely_0.5.16_linux_arm64.tar.gz"
+      sha256 "52cd501f3b0673a19c536f1e8f9393bed05001834a30745c59a214b79ab22244"
     end
     on_intel do
-      url "https://github.com/clericuzzi/homebrew-perform-remotely/releases/download/v0.5.15/perform-remotely_0.5.15_linux_amd64.tar.gz"
-      sha256 "e689bcfb06e44add3f645ec054feb17809fab3e1e2a34ac642b44d90181fc382"
+      url "https://github.com/clericuzzi/homebrew-perform-remotely/releases/download/v0.5.16/perform-remotely_0.5.16_linux_amd64.tar.gz"
+      sha256 "c3887cdedf41e472fc84657246580d87768a044d82a731cad664ad0ed7f8843b"
     end
   end
 

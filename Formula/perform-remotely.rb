@@ -1,29 +1,29 @@
 class PerformRemotely < Formula
   desc "Background worker for perform-remotely, run on your own machine"
   homepage "https://github.com/clericuzzi/homebrew-perform-remotely"
-  version "0.6.0"
+  version "0.7.0"
 
   on_macos do
     depends_on "terminal-notifier"
 
     on_arm do
-      url "https://github.com/clericuzzi/homebrew-perform-remotely/releases/download/v0.6.0/perform-remotely_0.6.0_darwin_arm64.tar.gz"
-      sha256 "889cf084033b5321af63ab307d3fe690feb116f73c3448b3a070a710ee266b11"
+      url "https://github.com/clericuzzi/homebrew-perform-remotely/releases/download/v0.7.0/perform-remotely_0.7.0_darwin_arm64.tar.gz"
+      sha256 "f24626dcfda8fe6c68e5f3a419a737d283f53b7cf98b8e677ecf7f1506ef59d6"
     end
     on_intel do
-      url "https://github.com/clericuzzi/homebrew-perform-remotely/releases/download/v0.6.0/perform-remotely_0.6.0_darwin_amd64.tar.gz"
-      sha256 "c553846ae7f3688ab33f1bbe8b4be3d9417abf9cb476de236b3c583382b1b267"
+      url "https://github.com/clericuzzi/homebrew-perform-remotely/releases/download/v0.7.0/perform-remotely_0.7.0_darwin_amd64.tar.gz"
+      sha256 "759ff1072a0ae9b7918c3d69074b6fddd721b111e8c0a788baae16b897b5148b"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/clericuzzi/homebrew-perform-remotely/releases/download/v0.6.0/perform-remotely_0.6.0_linux_arm64.tar.gz"
-      sha256 "adf2085b445493313baa4afd7525364253a3798c2104568e914d913d77f1e32d"
+      url "https://github.com/clericuzzi/homebrew-perform-remotely/releases/download/v0.7.0/perform-remotely_0.7.0_linux_arm64.tar.gz"
+      sha256 "4821507472f9f2be33a7f71cf97708e1152fdf8bc8cd2817a1ca692fa79d4d80"
     end
     on_intel do
-      url "https://github.com/clericuzzi/homebrew-perform-remotely/releases/download/v0.6.0/perform-remotely_0.6.0_linux_amd64.tar.gz"
-      sha256 "89c515defd84bca146001fcb6915733147bb5d5505cdd9d61a0cbe81b5a30c1a"
+      url "https://github.com/clericuzzi/homebrew-perform-remotely/releases/download/v0.7.0/perform-remotely_0.7.0_linux_amd64.tar.gz"
+      sha256 "7e476f339915ca2443ca66e568916c8adf4ae749500f9833003a06720c95edd8"
     end
   end
 
